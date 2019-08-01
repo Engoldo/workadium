@@ -1,0 +1,55 @@
+.header {
+    background-color: #27273e;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+
+.header__top {
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.header__left,
+.header__right {
+    float: left;
+    width: 50%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.contacts__phone {
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.contacts__desc {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(236, 30, 121, 0.702);
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    transition: .4s;
+}
+
+.contacts__desc:hover {
+    color: rgba(93, 209, 248, 0.702);
+}
+
+.contacts__desc:hover .contacts__drop {
+    right: 0;
+    opacity: 1;
+    transition: opacity .4s;
+}
