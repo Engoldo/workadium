@@ -71,3 +71,19 @@
 .nav__link:hover {
     color: rgb(0, 0, 0);
 }
+
+.nav__link--main-page--active,
+.nav__link--main-page:hover {
+    color: rgb(236, 30, 121);
+}
+
+.nav__link--main-page {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    padding-left: 35px;
+    transition: .3s;
+}

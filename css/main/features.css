@@ -49,6 +49,7 @@
     text-transform: uppercase;
     letter-spacing: 2.5px;
     margin-bottom: 18px;
+    margin-top: 18px;
 }
 
 .feature__desc {
@@ -76,4 +77,9 @@
 
 .sidebar {
     width: 25%;
+    margin-top: 40px;
+}
+
+.sidebar__title {
+    font-weight: bold;
 }
