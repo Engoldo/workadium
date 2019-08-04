@@ -5,8 +5,9 @@
 }
 
 .footer__col {
+    display: flex;
+    flex-direction: row;
     width: 33.33%;
-    float: left;
     color: rgb(255, 255, 255);
 }
 
@@ -27,8 +28,8 @@
 }
 
 .footer__logo {
-    text-align: center;
     padding-top: 14px;
+    justify-content: flex-end;
 }
 
 .footer__socials {
@@ -37,7 +38,11 @@
 }
 
 .socials {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
 }
 
 .socials__title {

@@ -1,10 +1,12 @@
 .nav__list {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .nav__item {
     margin-bottom: 32px;
+    margin-right: 80px;
 }
 
 .nav__item:last-child {
@@ -15,7 +17,7 @@
     position: relative;
     font-size: 12px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(236, 30, 121);
     text-transform: uppercase;
     letter-spacing: 1.1px;
     padding-left: 35px;
@@ -67,5 +69,5 @@
 
 .nav__link--active,
 .nav__link:hover {
-    color: rgb(236, 30, 121);
+    color: rgb(0, 0, 0);
 }

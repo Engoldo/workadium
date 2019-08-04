@@ -2,6 +2,10 @@
     margin-bottom: 6px;
 }
 
+.review {
+    display: flex;
+}
+
 .reviews__item {
     margin-bottom: 28px;
     padding-bottom: 20px;
@@ -12,14 +16,17 @@
     border-bottom: none;
 }
 
-.review__avatar,
-.review__content {
-    float: left;
+.review__avatar {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
 }
 
 .review__img {
     width: 160px;
     height: 160px;
+    object-fit: cover;
 }
 
 .review__content {

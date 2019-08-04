@@ -1,8 +1,13 @@
-.partners__list {
+.partners {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    margin-left: -110px;
+    align-items: center;
+    width: 160px;
+}
+
+.partners__title {
+    font-size: 24px;
 }
 
 .partners__item {
