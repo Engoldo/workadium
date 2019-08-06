@@ -1,6 +1,6 @@
 .last-news {
     width: 75%;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .last-news__item {
@@ -9,6 +9,7 @@
 
 .news {
     display: flex;
+    border-bottom: 2px solid rgb(245, 245, 245)
 }
 
 .news__avatar {

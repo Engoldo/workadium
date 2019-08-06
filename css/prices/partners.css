@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 160px;
+    margin-top: 15px;
+    border: 2px solid rgb(245, 245, 245);
 }
 
 .partners__title {

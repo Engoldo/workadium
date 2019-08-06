@@ -19,6 +19,7 @@
 .feature {
     padding-top: 17px;
     text-align: center;
+    border: 2px solid rgb(245, 245, 245);
 }
 
 .feature__icon {
@@ -78,8 +79,21 @@
 .sidebar {
     width: 25%;
     margin-top: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
 }
 
 .sidebar__title {
     font-weight: bold;
+}
+
+.sidebar__partners {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sidebar__pattern {
+    width: 25%;
+    margin-top: 40px; 
 }

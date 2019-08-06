@@ -1,8 +1,12 @@
+.prices__container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .prices__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: -55px;
 }
 
 .prices__item {
